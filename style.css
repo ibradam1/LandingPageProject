@@ -1,26 +1,78 @@
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 24px 128px;
-
+    padding: 24px;
+    margin: 0px 100px;
+    
     
 }
 
 
+.logo {
+    
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    font-family: Arial;
+}
+
+.links {
+    display: flex;
+    
+}
+
+.links > a {
+    font-size: 18px;
+    color: #F9FAF8;
+    text-decoration: none;
+    font-family: Arial;
+    margin-left: 16px;
+}
+
+.top {
+    background-color: #1F2937;
+    padding-bottom: 48px;
+}
+
+.bigtext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 .bigcontainer {
     display: flex;
-    justify-content: space-between;
-    padding: 128px;
-    gap: 100px;
+    justify-content: flex-start;
+    margin: 64px 128px;
+    
+    
 }
 
 .bigcontainer > img {
     width: 300px;
-    max-height: 300px;
+    height: 300px;
+    margin-left: 48px;
+    flex: 0 0 300px;
 }
 
-.leftcontainer > p {
-    max-width: 200px;
+.bigcontainer > * {
+    font-family: Arial;
+    color: #E5E7EB;
+    font-size: 16px;
 }
+
+.leftcontainer > button {
+    background-color: #3882F6;
+    font-family: Arial;
+    color: white;
+    border: none;
+    width: 128px;
+    height: 64px;
+    font-size: 24px;
+    border-radius: 24px;
+}
+
