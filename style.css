@@ -46,7 +46,7 @@
 
 .bigcontainer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 64px 128px;
     
     
@@ -65,6 +65,10 @@
     font-size: 16px;
 }
 
+.leftcontainer {
+    max-width: 700px;
+}
+
 .leftcontainer > button {
     background-color: #3882F6;
     font-family: Arial;
@@ -76,3 +80,41 @@
     border-radius: 24px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.infotitle {
+    font-family: arial;
+    padding: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.products {
+    display: flex;
+    gap: 64px;
+    
+}
+
+.products > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    max-width: 200px;
+    text-align: center;
+    
+}
+
+.products > * > img {
+    border: 5px solid #3882F6;
+    border-radius: 24px;
+    height: 200px;
+    width: 200px;
+    margin: 16px; 
+}
