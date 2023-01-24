@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 128px;
+
+    
+}
+
+
+
+
+.bigcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 128px;
+    gap: 100px;
+}
+
+.bigcontainer > img {
+    width: 300px;
+    max-height: 300px;
+}
+
+.leftcontainer > p {
+    max-width: 200px;
+}
